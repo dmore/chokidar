@@ -11,3 +11,8 @@ updates:
   - dependency-name: mocha
   - dependency-name: "@types/node"
   - dependency-name: sinon
+
+- package-ecosystem: github-actions
+  directory: /
+  schedule:
+    interval: daily
